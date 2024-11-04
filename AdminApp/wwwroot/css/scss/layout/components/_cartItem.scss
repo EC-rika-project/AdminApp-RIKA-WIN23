@@ -1,0 +1,80 @@
+// STYLING FOR A CART ITEM IN BOTH CART AND CHECKOUT
+
+.cart-item {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--color-border-dark-transparent);
+
+  @include tablet {
+    gap: 16px;
+  }
+
+  .image-wrapper {
+    height: auto;
+    width: 20%;
+    max-width: 100px;
+
+    .image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+
+  .text-grid {
+    display: grid;
+    grid-template-columns: 1fr 90px;
+    grid-template-rows: auto 1fr auto;
+    width: 90%;
+
+    .title {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+
+    .text {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+
+    .price {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+
+    .delete {
+      grid-column: 2 / 3;
+      grid-row: 1 / 3;
+      justify-self: end;
+      font-size: 16px;
+      padding: 0 12px 12px 12px;
+      align-self: flex-start;
+    }
+
+    .quantity {
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .qty-btn {
+        background-color: transparent;
+        border: none;
+        width: 35px;
+        height: 35px;
+      }
+
+      .qty-number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+      }
+    }
+  }
+}

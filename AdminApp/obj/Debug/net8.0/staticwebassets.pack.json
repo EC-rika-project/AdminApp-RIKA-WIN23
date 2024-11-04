@@ -1,0 +1,237 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AdminApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AdminApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\css\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\abstracts\\mixins\\_mixins-buttons.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\abstracts\\mixins\\_mixins-buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\abstracts\\mixins\\_mixins-colors.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\abstracts\\mixins\\_mixins-colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\abstracts\\mixins\\_mixins_typography.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\abstracts\\mixins\\_mixins_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\abstracts\\variables\\_variables-typography.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\abstracts\\variables\\_variables-typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\base\\base\\_base.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\base\\base\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\base\\reset\\_reset.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\base\\reset\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\base\\typography\\_typography.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\base\\typography\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\base\\_base.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\base\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\base\\_media.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\base\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\components\\_cartItem.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\components\\_cartItem.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\components\\_categoryLink.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\components\\_categoryLink.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\components\\_links.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\components\\_links.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\components\\_productCard.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\components\\_productCard.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\components\\_profileLink.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\components\\_profileLink.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\components\\_reviewCard.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\components\\_reviewCard.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\components\\_totalPriceSummary.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\components\\_totalPriceSummary.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\sections\\_categoryMenu.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\sections\\_categoryMenu.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\sections\\_footer.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\sections\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\sections\\_header.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\sections\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\sections\\_productGrid.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\sections\\_productGrid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\sections\\_productList.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\sections\\_productList.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\sections\\_profileMenu.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\sections\\_profileMenu.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\sections\\_reviewGrid.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\sections\\_reviewGrid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\views\\_cart.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\views\\_cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\views\\_checkout.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\views\\_checkout.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\views\\_filter.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\views\\_filter.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\views\\_home.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\views\\_home.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\views\\_productDetails.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\views\\_productDetails.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\views\\_products.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\views\\_products.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\views\\_profile.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\views\\_profile.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\views\\_reviews.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\views\\_reviews.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\views\\_signin.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\views\\_signin.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\layout\\views\\_signup.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\layout\\views\\_signup.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\themes\\default\\_backgrounds.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\themes\\default\\_backgrounds.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\themes\\default\\_base.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\themes\\default\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\themes\\default\\_buttons.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\themes\\default\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\themes\\default\\_colors.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\themes\\default\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\themes\\default\\_links.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\themes\\default\\_links.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\themes\\default\\_typography.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\themes\\default\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\scss\\themes\\default\\theme-default.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\themes\\default\\theme-default.scss"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\css\\theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\css\\theme-default.min.css",
+      "PackagePath": "staticwebassets\\css\\theme-default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\images\\rikaLogo.svg",
+      "PackagePath": "staticwebassets\\images\\rikaLogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\images\\rikaMobileLogo.svg",
+      "PackagePath": "staticwebassets\\images\\rikaMobileLogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\js\\toast-config.js",
+      "PackagePath": "staticwebassets\\js\\toast-config.js"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\wwwroot\\js\\validation.js",
+      "PackagePath": "staticwebassets\\js\\validation.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AdminApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AdminApp.props",
+      "PackagePath": "build\\AdminApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AdminApp.props",
+      "PackagePath": "buildMultiTargeting\\AdminApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AdminApp.props",
+      "PackagePath": "buildTransitive\\AdminApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

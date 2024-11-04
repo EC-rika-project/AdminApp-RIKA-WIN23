@@ -1,0 +1,20 @@
+.category-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  .close-btn {
+    align-self: flex-end;
+    margin: 32px 32px 8px 0;
+
+    @include desktop {
+      display: none;
+    }
+  }
+
+  .heading {
+    @include desktop {
+      display: none;
+    }
+  }
+}

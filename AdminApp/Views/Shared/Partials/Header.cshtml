@@ -1,0 +1,26 @@
+﻿@* @inject SignInManager<UserEntity> _signInManager; *@
+
+<header class="header container">
+    <div class="left-wrapper">
+        <button class="btn-circle mobile-btn" id="mobile-menu-btn-open"><i class="fa-solid fa-bars"></i></button>
+        <a asp-controller="" asp-action="" class="logo-mobile"><img src="/images/rikaMobileLogo.svg" alt="Rika logo" class="logo"></a>
+        <a asp-controller="" asp-action="" class="logo-desktop"><img src="/images/rikaLogo.svg" alt="Rika logo" class="logo"></a>
+    </div>
+    <div class="right-wrapper">
+@* 		@if (_signInManager.IsSignedIn(User))
+		{ *@
+			<a asp-controller="Profile" asp-action="" class="link"><i class="fa-solid fa-user icon"></i></a>
+@* 		}
+		else
+		{
+			<a asp-controller="Signin" asp-action="" class="link"><i class="fa-solid fa-user icon"></i></a>
+		} *@
+        @* <a asp-controller="Home" asp-action="Cart" class="link"><i class="fa-solid fa-cart-shopping icon"></i></a> *@
+    </div>
+
+  
+
+
+</header>
+
+<script src="~/js/toggleMobileMenu.js"></script>

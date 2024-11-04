@@ -1,0 +1,16 @@
+// GRID TO DISPLAY PRODUCT CARDS
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+
+  @include tablet {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  @include desktop {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

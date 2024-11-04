@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  @include text("body", "regular");
+  background-color: #ffffff;
+  color: #000000;
+}

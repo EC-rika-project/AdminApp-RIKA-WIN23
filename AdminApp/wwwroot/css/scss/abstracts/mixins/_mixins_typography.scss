@@ -1,0 +1,15 @@
+@mixin text($text-name, $font-weight) {
+  font-family: "Poppins", sans-serif;
+  $size: map-get($textSizes, $text-name);
+  font-size: $size;
+  $weight: map-get($fontWeights, $font-weight);
+  font-weight: $weight;
+}
+
+@mixin heading($heading-name, $font-weight) {
+  font-family: "Poppins", sans-serif;
+  $size: map-get($headingSizes, $heading-name);
+  font-size: $size;
+  $weight: map-get($fontWeights, $font-weight);
+  font-weight: $weight;
+}

@@ -1,0 +1,19 @@
+.bg-light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.bg-gray {
+  background-color: var(--color-gray);
+  color: var(--color-dark);
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+}

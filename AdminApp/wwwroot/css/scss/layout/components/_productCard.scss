@@ -1,0 +1,41 @@
+// STYLING FOR A PRODUCT CARD IN A PRODUCT GRID
+
+.product-card {
+  width: 100%;
+
+  .image-wrapper {
+    position: relative;
+    .product-image {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+
+    .icon-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 18%;
+      height: auto;
+      background-color: var(--color-light);
+      border-radius: 50%;
+      aspect-ratio: 1 / 1;
+      font-size: 20px;
+
+      i {
+        margin-top: 2px;
+      }
+    }
+  }
+
+  .product-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin-top: 16px;
+  }
+}

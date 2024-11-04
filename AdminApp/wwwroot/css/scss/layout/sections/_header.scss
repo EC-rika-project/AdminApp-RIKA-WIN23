@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    margin-bottom: 16px;
+    margin-top: 8px;
+
+    @include desktop {
+        margin-bottom: 48px;
+    }
+
+    .left-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        height: 100%;
+
+        .mobile-btn {
+            min-width: 35px;
+            min-height: 35px;
+            border: none;
+
+            @include desktop {
+                display: none;
+            }
+        }
+
+        .logo {
+            height: 100%;
+            width: auto;
+            object-fit: cover;
+        }
+
+        .logo-mobile {
+            height: 45%;
+
+            @include desktop {
+                display: none;
+            }
+        }
+
+        .logo-desktop {
+            display: none;
+
+            @include desktop {
+                display: inline;
+                height: 80%;
+            }
+        }
+    }
+
+    .right-wrapper {
+        display: flex;
+        gap: 10px;
+
+        .link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 35px;
+            min-height: 35px;
+
+            @include desktop {
+                align-items: flex-end;
+            }
+
+            i {
+                font-size: 20px;
+            }
+        }
+    }
+}

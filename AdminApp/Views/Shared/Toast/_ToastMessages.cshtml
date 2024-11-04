@@ -1,0 +1,10 @@
+﻿@{
+    var message = TempData["Message"] as string;
+    var messageType = TempData["MessageType"] as string;
+}
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <input type="hidden" id="toast-message" value="@message" />
+    <input type="hidden" id="toast-message-type" value="@messageType" />
+}

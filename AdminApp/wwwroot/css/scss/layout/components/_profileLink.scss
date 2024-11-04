@@ -1,0 +1,25 @@
+.profile-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 12px;
+
+  .icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: var(--color-gray);
+    border-radius: 10px;
+
+    i {
+      margin-left: 2px;
+    }
+  }
+
+  .chevron {
+    margin-left: auto;
+    font-size: 20px;
+  }
+}

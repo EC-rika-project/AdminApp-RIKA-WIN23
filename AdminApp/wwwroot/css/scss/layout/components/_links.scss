@@ -1,0 +1,21 @@
+//GENERAL STYLING FOR LINKS
+
+.link {
+  display: inline-block;
+
+  @include text("body", "bold");
+  font-size: 1em;
+  text-decoration: none;
+
+  &[target="_blank"] {
+    &::after {
+      content: "\f08e";
+      font-family: "Font Awesome 6 Pro";
+      font-size: 0.8em;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 0.3em;
+      margin-top: -0.9em;
+    }
+  }
+}

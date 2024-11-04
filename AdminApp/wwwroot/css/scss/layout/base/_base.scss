@@ -1,0 +1,32 @@
+img,
+svg {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.page-wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.section {
+  width: 100vw;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include tablet {
+    max-width: 992px;
+  }
+
+  @include desktop {
+    max-width: 1170px;
+  }
+}

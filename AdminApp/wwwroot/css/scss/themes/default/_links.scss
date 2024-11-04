@@ -1,0 +1,8 @@
+// MIXIN: $link-color, $hover-color
+@include link-colors(--color-dark, --color-gray);
+
+// MIXIN: $bg-color, $link-color, $hover-color
+@include theme-links("light", --color-dark, --color-gray);
+@include theme-links("gray", --color-dark, --color-light);
+@include theme-links("dark", --color-light, --color-gray);
+@include theme-links("accent", --color-light, --color-gray);

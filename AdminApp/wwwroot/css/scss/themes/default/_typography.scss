@@ -1,0 +1,17 @@
+// MIXIN: $h1-color, $h2-color, $h3-color, $h4-color, $h5-color, $h6-color
+@include heading-colors(--color-dark, --color-dark, --color-dark, --color-dark, --color-dark, --color-dark);
+
+// MIXIN: $bg-color, $h1-color, $h2-color, $h3-color, $h4-color, $h5-color, $h6-color
+@include theme-heading("light", --color-dark, --color-dark, --color-dark, --color-dark, --color-dark, --color-dark);
+@include theme-heading("gray", --color-dark, --color-dark, --color-dark, --color-dark, --color-dark, --color-dark);
+@include theme-heading("dark", --color-light, --color-light, --color-light, --color-light, --color-light, --color-light);
+@include theme-heading("accent", --color-light, --color-light, --color-light, --color-light, --color-light, --color-light);
+
+// MIXIN: $body-color, $span-color, $quote-color
+@include text-colors(--color-dark, --color-dark, --color-dark);
+
+// MIXIN: $bg-color, $body-color, $span-color, $quote-color
+@include theme-text("light", --color-dark, --color-dark, --color-dark);
+@include theme-text("gray", --color-dark, --color-dark, --color-dark);
+@include theme-text("dark", --color-light, --color-light, --color-light);
+@include theme-text("accent", --color-light, --color-light, --color-light);
