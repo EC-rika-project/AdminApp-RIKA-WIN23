@@ -707,3 +707,66 @@ svg {
     gap: 16px 72px;
   }
 }
+
+.profile-info-box {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  max-width: 275px;
+  display: flex;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.profile-info-box .profile-image {
+  width: 50%;
+  border-radius: 10%;
+}
+.profile-info-box .profile-info-text {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+li {
+  list-style-type: none;
+  margin: 15px 0 30px 0;
+}
+
+ul {
+  border: 1px solid rgba(181, 175, 175, 0.831372549);
+  border-radius: 8px;
+  margin: 15px 0 15px 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 275px;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+a i.fa-chevron-right {
+  margin-left: auto;
+}
+
+a i.left-icon {
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: rgba(181, 175, 175, 0.831372549);
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+.btn-signout {
+  width: 275px;
+}
