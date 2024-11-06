@@ -6,16 +6,66 @@
         <a asp-controller="" asp-action="" class="logo-mobile"><img src="/images/rikaMobileLogo.svg" alt="Rika logo" class="logo"></a>
         <a asp-controller="" asp-action="" class="logo-desktop"><img src="/images/rikaLogo.svg" alt="Rika logo" class="logo"></a>
     </div>
+
+
+
+
+
     <div class="right-wrapper">
 @* 		@if (_signInManager.IsSignedIn(User))
 		{ *@
-			<a asp-controller="Profile" asp-action="" class="link"><i class="fa-solid fa-user icon"></i></a>
+
+
+        <!-- Glöm inte ta bort uttropstecken när logik implementeras! -->
+
+
+        @if (!User.Identity!.IsAuthenticated)
+        {
+            var userName = User.FindFirst(System.Security.Claims.ClaimTypes.Name)?.Value;
+            var userEmail = User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value;
+            var userImage = User.FindFirst(System.Security.Claims.ClaimTypes.Uri)?.Value;
+
+            userName = "Harald Svenning";
+            userEmail = "Harre@gmail.com";
+            userImage = "/images/Profilepic.jpg";
+
+          
+
+
+            <a asp-controller="Profile" asp-action="" class="right-wrapper-outer-div">
+
+
+                <div class="right-wrapper-inner-div">
+
+                    <p class="right-wrapper-inner-div-text">
+                        @userName
+                    </p>
+
+                    <p class="right-wrapper-inner-div-text">
+                        @userEmail
+                    </p>
+
+                </div>
+
+
+
+                <img id="header-img-user-signedin" src="@userImage" />
+
+            </a>
+
+        }
+
+
+
 @* 		}
 		else
 		{
 			<a asp-controller="Signin" asp-action="" class="link"><i class="fa-solid fa-user icon"></i></a>
 		} *@
         @* <a asp-controller="Home" asp-action="Cart" class="link"><i class="fa-solid fa-cart-shopping icon"></i></a> *@
+
+
+
     </div>
 
   

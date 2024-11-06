@@ -1,23 +1,23 @@
-﻿
-@{
+﻿<!DOCTYPE html>
 
-    ViewData["Title"] = "Home";
+<html>
+<head>
 
-    Layout = "_Layout";
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AdminApp</title>
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/theme-default.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" />
+   
+</head>
+<body>
 
-}
+    @await Html.PartialAsync("Partials/Header")
 
-
-<!-- Style nedan hittar man i scss/layout/views/home -->
-
-
-<!-- Glöm inte ta bort uttropstecken när logik implementeras! -->
-
-@if (!User.Identity!.IsAuthenticated)
-{
+    <!-- Style nedan hittar man i scss/layout/views/home -->
 
     <div class="container wrapper-index">
-
 
         <div>
 
@@ -40,21 +40,12 @@
         </div>
 
 
-        <div class="wrapper-index-render-partial">
-
-            <!-- Här kan man sätta en div för att presentera något på startstidan! -->
-            Här kan man presentera något på startsidan..
-
-
-        </div>
+        <main role="main" class="wrapper-index-render-partial">
+            @RenderBody()
+        </main>
 
     </div>
 
-}
 
-
-
-
-
-
-
+</body>
+</html>

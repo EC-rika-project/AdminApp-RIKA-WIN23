@@ -1,68 +1,71 @@
-.profile-info-box {
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-    max-width: 275px;
+
+
+.wrapper-index {
     display: flex;
-    padding: 5px;
-    display:flex;
-    align-items:center;
-    
+    height: 100%;    
+    column-gap: 1rem;
 
-    .profile-image {
-        width: 50%;
-        border-radius: 10%;
-        
-    }
-
-    .profile-info-text {
-        margin-top: 15px;
-        margin-left: 10px;
+    .wrapper-index-render-partial {
+        width: 100%;
+        min-height: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid black;
     }
 }
 
-
-
-li {
-    list-style-type: none;
-    margin: 15px 0 30px 0;
-}
-
-ul {
+.index-menu-list-wrapper {
     border: 1px solid #b5afafd4;
     border-radius: 8px;
-    margin: 15px 0 15px 0;
+    margin-bottom: 1rem;
     padding-left: 10px;
     padding-right: 10px;
     max-width: 275px;
-}
+    list-style-type: none;
 
-.bold-text {
-    font-weight: 600;
-}
+    .bold-text {
+        font-weight: 600;
 
-a {
-    text-decoration: none;
-    color: #000000;
-    display: flex;
-    align-items: center;
-}
+        .index-menu-list-items {
+            text-decoration: none;
+            color: #000000;
+            display: flex;
+            align-items: center;
+            margin: 15px 0 30px 0;
 
-a i.fa-chevron-right {
-    margin-left: auto;
-}
+            .left-icon {
+                margin-right: 10px;
+                font-size: 20px;
+                padding: 5px;
+                border-radius: 8px;
+                background-color: #b5afafd4;
+            }
 
-a i.left-icon {
-    margin-right: 10px;
-    font-size: 20px;
-    padding: 5px;
-    border-radius: 8px;
-    background-color: #b5afafd4;
-}
+            .fa-chevron-right {
+                margin-left: auto;
+            }
+        }
+    }
 
-a:hover {
-    font-weight: 700;
+    .bold-text:hover {
+
+
+        .index-menu-list-items {
+            font-size: 0.9rem;
+            transition-duration: 0.2s;
+
+            .left-icon {
+                transition-duration: 0.2s;
+            }
+
+            .fa-chevron-right {
+            }
+        }
+    }
 }
 
 .btn-signout {
     width: 275px;
 }
+

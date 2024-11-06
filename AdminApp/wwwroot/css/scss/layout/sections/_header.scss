@@ -52,14 +52,28 @@
 
     .right-wrapper {
         display: flex;
-        gap: 10px;
+        column-gap: 10px;
 
-        .link {
+        .right-wrapper-outer-div {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            min-width: 35px;
-            min-height: 35px;
+            align-items: center!important;
+            color: #000000;
+            text-decoration: none;
+            column-gap: 1rem;
+
+            @include text("body", "regular");
+
+            .right-wrapper-inner-div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            #header-img-user-signedin {
+                height: 3rem;
+                border-radius: 50%;
+                border: 1px solid gray;
+            }
 
             @include desktop {
                 align-items: flex-end;
@@ -67,6 +81,18 @@
 
             i {
                 font-size: 20px;
+            }
+        }
+
+        .right-wrapper-outer-div:hover {
+            font-size: 0.89rem;
+            transition-duration: 0.2s;
+
+            #header-img-user-signedin {
+                height: 3.2rem;
+                border-radius: 50%;
+                border: 1px solid gray;
+                transition-duration: 0.2s;
             }
         }
     }
