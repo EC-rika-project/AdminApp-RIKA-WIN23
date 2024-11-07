@@ -1,0 +1,60 @@
+﻿
+@{
+
+    ViewData["Title"] = "Home";
+
+    Layout = "_Layout";
+
+}
+
+
+<!-- Style nedan hittar man i scss/layout/views/home -->
+
+
+<!-- Glöm inte ta bort uttropstecken när logik implementeras! -->
+
+@if (!User.Identity!.IsAuthenticated)
+{
+
+    <div class="container wrapper-index">
+
+
+        <div>
+
+            <!-- Controller actions nedan måste peka mot rätt vid implementation -->
+
+            <ul class="index-menu-list-wrapper">
+
+                <li class="bold-text"><a asp-action="_users" asp-controller="User" class="index-menu-list-items"><i class="fa-solid fa-user left-icon"></i> Users <i class="fa-solid fa-chevron-right"></i></a></li>
+                <li class="bold-text"><a asp-action="_orders" asp-controller="Order" class="index-menu-list-items"><i class="fa-solid fa-bag-shopping left-icon"></i> Orders <i class="fa-solid fa-chevron-right"></i></a></li>
+                <li class="bold-text"><a asp-action="_products" asp-controller="Product" class="index-menu-list-items"><i class="fa-solid fa-box left-icon"></i> Products <i class="fa-solid fa-chevron-right"></i></a></li>
+                <li class="bold-text"><a asp-action="_categories" asp-controller="Category" class="index-menu-list-items"><i class="fa-solid fa-list left-icon"></i> Categories <i class="fa-solid fa-chevron-right"></i></a></li>
+
+            </ul>
+
+            <!-- Satte en signout action i home controllern pga. vet ej implementation -->
+
+            <button onclick="location.href='@Url.Action("SignOutAsync", "Home")'" class="btn-dark btn-signout">Sign Out</button>
+
+
+        </div>
+
+
+        <div class="wrapper-index-render-partial">
+
+            <!-- Här kan man sätta en div för att presentera något på startstidan! -->
+            Här kan man presentera något på startsidan..
+
+
+        </div>
+
+    </div>
+
+}
+
+
+
+
+
+
+

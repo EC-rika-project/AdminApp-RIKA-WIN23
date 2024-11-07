@@ -1,0 +1,39 @@
+@mixin btn {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 1px solid;
+  height: 50px;
+  padding: 0 40px;
+  font-size: 14px;
+  transition: 0.25s;
+  text-decoration: none !important;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+  &:hover {
+    transition: 0.25s;
+    text-decoration: none;
+  }
+}
+
+@mixin btn-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid;
+  transition: 0.25s;
+  text-decoration: none !important;
+  outline: none !important;
+  background-color: transparent;
+  padding: 0;
+
+  &:hover {
+    transition: 0.25s;
+    text-decoration: none;
+  }
+}

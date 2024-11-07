@@ -1,0 +1,93 @@
+@mixin button-colors($bg-color, $text-color, $hover-bg-color, $hover-text-color, $border-color: null, $hover-border-color: null) {
+  background-color: var($bg-color);
+  color: var($text-color);
+  border-color: if($border-color, var($border-color), var($bg-color));
+  outline: none !important;
+
+  &:hover {
+    background-color: var($hover-bg-color);
+    color: var($hover-text-color);
+    border-color: if($hover-border-color, var($hover-border-color), var($hover-bg-color));
+  }
+}
+
+@mixin theme-buttons($bg-color, $btn-light-colors, $btn-dark-colors, $btn-accent-colors) {
+  .bg-#{$bg-color} {
+    .btn-light {
+      @include button-colors($btn-light-colors...);
+    }
+    .btn-dark {
+      @include button-colors($btn-dark-colors...);
+    }
+    .btn-accent {
+      @include button-colors($btn-accent-colors...);
+    }
+  }
+}
+
+@mixin heading-colors($h1-color, $h2-color, $h3-color, $h4-color, $h5-color, $h6-color) {
+  .h1 {
+    color: var($h1-color);
+  }
+  .h2 {
+    color: var($h2-color);
+  }
+  .h3 {
+    color: var($h3-color);
+  }
+  .h4 {
+    color: var($h4-color);
+  }
+  .h5 {
+    color: var($h5-color);
+  }
+  .h6 {
+    color: var($h6-color);
+  }
+}
+
+@mixin theme-heading($bg-color, $h1-color, $h2-color, $h3-color, $h4-color, $h5-color, $h6-color) {
+  .bg-#{$bg-color} {
+    @include heading-colors($h1-color, $h2-color, $h3-color, $h4-color, $h5-color, $h6-color);
+  }
+}
+
+@mixin link-colors($link-color, $hover-color) {
+  .link {
+    color: var($link-color);
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: var($hover-color);
+    }
+  }
+
+  .current {
+    color: var($hover-color);
+  }
+}
+
+@mixin theme-links($bg-color, $link-color, $hover-color) {
+  .bg-#{$bg-color} {
+    @include link-colors($link-color, $hover-color);
+  }
+}
+
+@mixin text-colors($body-color, $span-color, $quote-color) {
+  .body {
+    color: var($body-color);
+  }
+  .span {
+    color: var($span-color);
+  }
+  .quote {
+    color: var($quote-color);
+  }
+}
+
+@mixin theme-text($bg-color, $body-color, $span-color, $quote-color) {
+  .bg-#{$bg-color} {
+    @include text-colors($body-color, $span-color, $quote-color);
+  }
+}

@@ -1,0 +1,23 @@
+// GENERAL STYLING FOR BUTTONS
+
+// classes for a standard button styled in different colors
+.btn-light,
+.btn-gray,
+.btn-dark,
+.btn-accent {
+  @include btn;
+}
+
+// class that gives a standard button full width
+.btn-fw {
+  width: 100%;
+}
+
+// class for styling for a round button
+.btn-circle {
+  @include btn-circle;
+  height: 40px;
+  width: 40px;
+  font-size: 1.6rem;
+  padding-top: 2px;
+}

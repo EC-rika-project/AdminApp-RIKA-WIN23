@@ -1,0 +1,12 @@
+// GRID TO DISPLAY REVIEW CARDS
+
+.review-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+
+  @include desktop {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 72px;
+  }
+}

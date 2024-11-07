@@ -1,0 +1,16 @@
+// SECTION TO DISPLAY A PRODUCT GRID INCLUDE HEADING AND FILTER
+
+.product-list {
+  .product-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+    .filter-wrapper {
+      background-color: var(--color-light);
+      border: 0.5px solid var(--color-border-dark);
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

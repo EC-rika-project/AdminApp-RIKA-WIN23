@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.h1 {
+  @include heading("h1", "bold"); //56px
+}
+.h2 {
+  @include heading("h2", "bold"); //32px
+}
+.h3 {
+  @include heading("h3", "bold"); //24px
+}
+.h4 {
+  @include heading("h4", "bold"); //20px
+}
+.h5 {
+  @include heading("h5", "semibold"); //16px
+}
+.h6 {
+  @include heading("h6", "semibold"); //14px
+}
+
+.body {
+  @include text("body", "regular"); //14px
+}
+.span {
+  @include text("span", "semibold"); //14px
+}
+.quote {
+  @include text("quote", "light"); //14px
+  font-style: italic;
+}
+
+.error {
+  color: var(--color-danger);
+}
+
+.success {
+  color: var(--color-success);
+}

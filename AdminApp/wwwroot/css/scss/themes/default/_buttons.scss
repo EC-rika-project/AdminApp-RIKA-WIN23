@@ -1,0 +1,40 @@
+// MIXIN: $bg-color, $text-color, $hover-bg-color, $hover-text-color, $border-color: null, $hover-border-color: null
+.btn-light {
+  @include button-colors(--color-light, --color-dark, --color-dark, --color-light);
+}
+
+.btn-dark {
+  @include button-colors(--color-dark, --color-light, --color-light, --color-dark);
+}
+
+.btn-accent {
+  @include button-colors(--color-accent, --color-light, --color-gray, --color-dark);
+}
+
+// MIXIN: $bg-color, $btn-light-colors, $btn-dark-colors, $btn-accent-colors
+@include theme-buttons(
+  "light",
+  (--color-light, --color-dark, --color-dark, --color-light, --color-dark),
+  (--color-dark, --color-light, --color-light, --color-dark, --color-dark, --color-dark),
+  (--color-accent, --color-light, --color-light, --color-accent, --color-accent, --color-accent)
+);
+@include theme-buttons(
+  "gray",
+  (--color-light, --color-dark, --color-dark, --color-light, --color-light, --color-dark),
+  (--color-dark, --color-light, --color-light, --color-dark),
+  (--color-accent, --color-light, --color-light, --color-accent, --color-accent, --color-accent)
+);
+
+@include theme-buttons(
+  "dark",
+  (--color-light, --color-dark, --color-dark, --color-light, --color-light, --color-light),
+  (--color-dark, --color-light, --color-light, --color-dark, --color-light),
+  (--color-accent, --color-light, --color-light, --color-accent)
+);
+
+@include theme-buttons(
+  "accent",
+  (--color-light, --color-dark, --color-dark, --color-light, --color-light, --color-dark),
+  (--color-dark, --color-light, --color-light, --color-dark),
+  (--color-accent, --color-light, --color-light, --color-accent, --color-light)
+);

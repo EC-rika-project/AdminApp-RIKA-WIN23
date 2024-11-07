@@ -1,0 +1,416 @@
+﻿:root {
+  --color-default: #000000;
+  --color-dark: #000000;
+  --color-dark-transparent: rgba(0, 0, 0, 0.2);
+  --color-light: #ffffff;
+  --color-gray: #cccccc;
+  --color-accent: #3b5998;
+  --color-danger: #f42d2d;
+  --color-success: #09a909;
+  --color-warning: #ffab07;
+  --color-border-dark: #000000;
+  --color-border-dark-transparent: rgba(0, 0, 0, 0.2);
+  --color-border-light: #ffffff;
+  --color-border-gray: #cccccc;
+  --color-border-gray-transparent: rgba(204, 204, 204, 0.5);
+  --color-border-accent: #3b5998;
+}
+
+body {
+  color: var(--color-default);
+}
+
+.link {
+  color: var(--color-dark);
+}
+.link:hover, .link:focus, .link:active {
+  color: var(--color-gray);
+}
+
+.current {
+  color: var(--color-gray);
+}
+
+.bg-light .link {
+  color: var(--color-dark);
+}
+.bg-light .link:hover, .bg-light .link:focus, .bg-light .link:active {
+  color: var(--color-gray);
+}
+.bg-light .current {
+  color: var(--color-gray);
+}
+
+.bg-gray .link {
+  color: var(--color-dark);
+}
+.bg-gray .link:hover, .bg-gray .link:focus, .bg-gray .link:active {
+  color: var(--color-light);
+}
+.bg-gray .current {
+  color: var(--color-light);
+}
+
+.bg-dark .link {
+  color: var(--color-light);
+}
+.bg-dark .link:hover, .bg-dark .link:focus, .bg-dark .link:active {
+  color: var(--color-gray);
+}
+.bg-dark .current {
+  color: var(--color-gray);
+}
+
+.bg-accent .link {
+  color: var(--color-light);
+}
+.bg-accent .link:hover, .bg-accent .link:focus, .bg-accent .link:active {
+  color: var(--color-gray);
+}
+.bg-accent .current {
+  color: var(--color-gray);
+}
+
+.btn-light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-color: var(--color-light);
+  outline: none !important;
+}
+.btn-light:hover {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-color: var(--color-dark);
+}
+
+.btn-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-color: var(--color-dark);
+  outline: none !important;
+}
+.btn-dark:hover {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-color: var(--color-light);
+}
+
+.btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+  border-color: var(--color-accent);
+  outline: none !important;
+}
+.btn-accent:hover {
+  background-color: var(--color-gray);
+  color: var(--color-dark);
+  border-color: var(--color-gray);
+}
+
+.bg-light .btn-light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-color: var(--color-dark);
+  outline: none !important;
+}
+.bg-light .btn-light:hover {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-color: var(--color-dark);
+}
+.bg-light .btn-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-color: var(--color-dark);
+  outline: none !important;
+}
+.bg-light .btn-dark:hover {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-color: var(--color-dark);
+}
+.bg-light .btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+  border-color: var(--color-accent);
+  outline: none !important;
+}
+.bg-light .btn-accent:hover {
+  background-color: var(--color-light);
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.bg-gray .btn-light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-color: var(--color-light);
+  outline: none !important;
+}
+.bg-gray .btn-light:hover {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-color: var(--color-dark);
+}
+.bg-gray .btn-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-color: var(--color-dark);
+  outline: none !important;
+}
+.bg-gray .btn-dark:hover {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-color: var(--color-light);
+}
+.bg-gray .btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+  border-color: var(--color-accent);
+  outline: none !important;
+}
+.bg-gray .btn-accent:hover {
+  background-color: var(--color-light);
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.bg-dark .btn-light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-color: var(--color-light);
+  outline: none !important;
+}
+.bg-dark .btn-light:hover {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-color: var(--color-light);
+}
+.bg-dark .btn-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-color: var(--color-light);
+  outline: none !important;
+}
+.bg-dark .btn-dark:hover {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-color: var(--color-light);
+}
+.bg-dark .btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+  border-color: var(--color-accent);
+  outline: none !important;
+}
+.bg-dark .btn-accent:hover {
+  background-color: var(--color-light);
+  color: var(--color-accent);
+  border-color: var(--color-light);
+}
+
+.bg-accent .btn-light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-color: var(--color-light);
+  outline: none !important;
+}
+.bg-accent .btn-light:hover {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-color: var(--color-dark);
+}
+.bg-accent .btn-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-color: var(--color-dark);
+  outline: none !important;
+}
+.bg-accent .btn-dark:hover {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  border-color: var(--color-light);
+}
+.bg-accent .btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+  border-color: var(--color-light);
+  outline: none !important;
+}
+.bg-accent .btn-accent:hover {
+  background-color: var(--color-light);
+  color: var(--color-accent);
+  border-color: var(--color-light);
+}
+
+.h1 {
+  color: var(--color-dark);
+}
+
+.h2 {
+  color: var(--color-dark);
+}
+
+.h3 {
+  color: var(--color-dark);
+}
+
+.h4 {
+  color: var(--color-dark);
+}
+
+.h5 {
+  color: var(--color-dark);
+}
+
+.h6 {
+  color: var(--color-dark);
+}
+
+.bg-light .h1 {
+  color: var(--color-dark);
+}
+.bg-light .h2 {
+  color: var(--color-dark);
+}
+.bg-light .h3 {
+  color: var(--color-dark);
+}
+.bg-light .h4 {
+  color: var(--color-dark);
+}
+.bg-light .h5 {
+  color: var(--color-dark);
+}
+.bg-light .h6 {
+  color: var(--color-dark);
+}
+
+.bg-gray .h1 {
+  color: var(--color-dark);
+}
+.bg-gray .h2 {
+  color: var(--color-dark);
+}
+.bg-gray .h3 {
+  color: var(--color-dark);
+}
+.bg-gray .h4 {
+  color: var(--color-dark);
+}
+.bg-gray .h5 {
+  color: var(--color-dark);
+}
+.bg-gray .h6 {
+  color: var(--color-dark);
+}
+
+.bg-dark .h1 {
+  color: var(--color-light);
+}
+.bg-dark .h2 {
+  color: var(--color-light);
+}
+.bg-dark .h3 {
+  color: var(--color-light);
+}
+.bg-dark .h4 {
+  color: var(--color-light);
+}
+.bg-dark .h5 {
+  color: var(--color-light);
+}
+.bg-dark .h6 {
+  color: var(--color-light);
+}
+
+.bg-accent .h1 {
+  color: var(--color-light);
+}
+.bg-accent .h2 {
+  color: var(--color-light);
+}
+.bg-accent .h3 {
+  color: var(--color-light);
+}
+.bg-accent .h4 {
+  color: var(--color-light);
+}
+.bg-accent .h5 {
+  color: var(--color-light);
+}
+.bg-accent .h6 {
+  color: var(--color-light);
+}
+
+.body {
+  color: var(--color-dark);
+}
+
+.span {
+  color: var(--color-dark);
+}
+
+.quote {
+  color: var(--color-dark);
+}
+
+.bg-light .body {
+  color: var(--color-dark);
+}
+.bg-light .span {
+  color: var(--color-dark);
+}
+.bg-light .quote {
+  color: var(--color-dark);
+}
+
+.bg-gray .body {
+  color: var(--color-dark);
+}
+.bg-gray .span {
+  color: var(--color-dark);
+}
+.bg-gray .quote {
+  color: var(--color-dark);
+}
+
+.bg-dark .body {
+  color: var(--color-light);
+}
+.bg-dark .span {
+  color: var(--color-light);
+}
+.bg-dark .quote {
+  color: var(--color-light);
+}
+
+.bg-accent .body {
+  color: var(--color-light);
+}
+.bg-accent .span {
+  color: var(--color-light);
+}
+.bg-accent .quote {
+  color: var(--color-light);
+}
+
+.bg-light {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.bg-gray {
+  background-color: var(--color-gray);
+  color: var(--color-dark);
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+  color: var(--color-light);
+}
