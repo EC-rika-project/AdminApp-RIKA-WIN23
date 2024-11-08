@@ -731,6 +731,7 @@ svg {
   }
 }
 
+<<<<<<< Updated upstream
 .wrapper-index {
   display: flex;
   height: 100%;
@@ -783,4 +784,155 @@ svg {
 }
 .btn-signout {
   width: 275px;
+=======
+.signin-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.signin-welcome {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.signin-welcome h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.signin-welcome p {
+  font-size: 14px;
+  color: black;
+}
+
+.form-section .signin-form .form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-section .signin-form .form-group .input-form {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  background-color: transparent;
+}
+.form-section .signin-form .form-group .input-form:focus {
+  outline: none;
+  border-bottom: 2px solid;
+}
+.form-section .signin-form .form-group .field-validation-error {
+  font-size: 12px;
+  bottom: -2px;
+}
+.form-section .signin-form .btn-primary {
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.form-section .signin-form .btn-primary:hover {
+  background-color: #333;
+}
+.form-section .form-group.remember-me-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-section .form-group.remember-me-forgot label {
+  margin-right: 55px;
+  padding-top: 5px;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+.form-section .form-group.remember-me-forgot a {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+.form-section .form-group.remember-me-forgot a:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+.separator span {
+  padding: 0 10px;
+  color: black;
+}
+.separator::before, .separator::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ccc;
+}
+
+.external-signin {
+  text-align: center;
+}
+.external-signin .btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #838383;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+.external-signin .btn.btn-facebook {
+  background-color: #3b5998;
+}
+.external-signin .btn.btn-facebook:hover {
+  background-color: #2d4373;
+}
+.external-signin .btn.btn-google {
+  background-color: transparent;
+  color: black;
+}
+.external-signin .btn.btn-google:hover {
+  color: white;
+  background-color: #000;
+}
+.external-signin .btn.btn-X {
+  color: black;
+  background-color: transparent;
+}
+.external-signin .btn.btn-X:hover {
+  color: white;
+  background-color: #000;
+}
+
+.signin-no-account {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 15px;
+}
+.signin-no-account a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+.signin-no-account a:hover {
+  text-decoration: underline;
+}
+
+.signin-already-signedin {
+  display: flex;
+  justify-content: center;
+>>>>>>> Stashed changes
 }
