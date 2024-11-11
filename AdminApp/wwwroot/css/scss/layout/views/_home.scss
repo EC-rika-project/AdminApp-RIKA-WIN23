@@ -2,7 +2,6 @@
 
 .wrapper-index {
     display: flex;
-    height: 100%;    
     column-gap: 1rem;
 
     .wrapper-index-render-partial {
@@ -11,7 +10,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border:1px solid black;
     }
 }
 

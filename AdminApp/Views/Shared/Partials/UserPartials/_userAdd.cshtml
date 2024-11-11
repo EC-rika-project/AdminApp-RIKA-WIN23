@@ -1,0 +1,74 @@
+﻿@model AdminApp.ViewModels.UserViewModel
+
+@{
+
+    Layout = "_LayoutForItems";
+
+}
+
+
+
+<div class="user-add-form-wrapper-wrapper">
+    <form class="user-add-form-wrapper" asp-action="adduser" asp-controller="user" method="post">
+
+        <h2>
+            Create a New Account
+        </h2>
+
+        <div style="color:red; max-width:60%">
+            <p style="color:red;">
+                @TempData["successMessage"]
+            </p>
+
+            <p style="color:red;">
+                @TempData["successMessageTwo"]
+            </p>
+        </div>
+
+
+
+        <label class="user-add-label" for="firstname-adduser">Firstname</label>
+        <input tabindex="1" class="user-add-input" asp-for="FirstName" id="firstname-adduser" />
+        @Html.ValidationMessageFor(m => m.FirstName, "", new { style = " font-size: 14px; color:red; max-width:60%; text-align:center" })
+
+
+        <label class="user-add-label" for="lastname-adduser">Lastname</label>
+        <input tabindex="2" class="user-add-input" asp-for="LastName" id="lastname-adduser" />
+        @Html.ValidationMessageFor(m => m.LastName, "", new { style = " font-size: 14px; color:red; max-width:60%; text-align:center" })
+
+
+        <label class="user-add-label" for="email-adduser">Email</label>
+        <input tabindex="3" class="user-add-input" asp-for="Email" id="email-adduser" />
+        @Html.ValidationMessageFor(m => m.Email, "", new { style = " font-size: 14px; color:red; max-width:60%; text-align:center" })
+
+
+        <label class="user-add-label" for="password-adduser">Password</label>
+        <input type="password" tabindex="4" class="user-add-input" asp-for="Password" id="password-adduser" />
+        @Html.ValidationMessageFor(m => m.Password, "", new { style = " font-size: 14px; color:red; max-width:60%; text-align:center" })
+
+
+        <label class="user-add-label" for="password-repeat-adduser">Confirm Password</label>
+        <input type="password" tabindex="5" class="user-add-input" asp-for="ConfirmPassword" id="password-repeat-adduser" />
+        @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { style = " font-size: 14px; color:red; max-width:60%; text-align:center" })
+
+
+
+        <div class="user-add-admin-container">
+
+            <p>
+                Admin Account?
+            </p>
+
+            <input asp-for="Admin" tabindex="6" class="user-add-admin-check" type="checkbox" />
+
+        </div>
+
+
+        <button tabindex="7" class="btn-dark user-add-button">
+            Add User
+        </button>
+
+
+    </form>
+</div>
+

@@ -13,7 +13,6 @@
   <ItemGroup>
     <Folder Include="Contexts\" />
     <Folder Include="Data\" />
-    <Folder Include="Dtos\" />
     <Folder Include="Entities\" />
     <Folder Include="Factories\" />
     <Folder Include="Helpers\" />

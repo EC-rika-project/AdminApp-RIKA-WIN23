@@ -1,0 +1,50 @@
+﻿@model AdminApp.ViewModels.UserViewModel
+
+@{
+
+    Layout = "_LayoutForItems";
+
+}
+
+
+
+
+<div class="main-user-wrapper">
+
+    <div class="main-user-header">
+
+        <a asp-action="adduser" asp-controller="user" class="main-user-add">
+            Create a New Account
+        </a>
+   
+        <input class="main-user-header-search" placeholder="Search..."/>
+        
+    </div>
+
+    @foreach (var item in Model.UserList!)
+    {
+        <div class="user-containers">
+
+            <p class="inner-user-data">
+                @item.UserName
+            </p>
+
+            <div class="inner-user-data-options">
+
+                <a asp-action="edituser" asp-controller="user" asp-route-value="@item.UserName">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+
+                <a asp-action="deleteuser" asp-controller="user" asp-route-value="@item.Id">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+                
+            </div>
+
+          
+        </div>
+    }
+
+
+
+</div>
