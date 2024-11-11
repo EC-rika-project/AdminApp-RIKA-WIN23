@@ -24,6 +24,8 @@ namespace Infrastructure.Dtos
 
     public class ProfileDto
     {
+
+        public string? UserId { get; set; }
         public string? Email { get; set; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
@@ -34,6 +36,7 @@ namespace Infrastructure.Dtos
 
     public class AddressDto
     {
+        public string? UserId { get; set; }
         public string? AddressLine { get; set; }  // Can be null
         public string? ApartmentNumber { get; set; }  // Can be null
         public int PostalCode { get; set; }
@@ -43,19 +46,21 @@ namespace Infrastructure.Dtos
 
     public class WishListDto
     {
-        public List<Guid>? ProductIds { get; set; }  // List of product IDs
+        public string? UserId { get; set; }
+        public List<string>? ProductIds { get; set; }  // List of product IDs
     }
 
     public class ShoppingCartDto
     {
-        public Guid Id { get; set; }
+        public string? UserId { get; set; }
+        public string? Id { get; set; }
         public List<ProductDto>? Products { get; set; }  // List of ProductDto objects
         public decimal TotalPrice { get; set; }
     }
 
     public class ProductDto
     {
-        public Guid Id { get; set; }
+        public string? Id { get; set; }
         public string? Name { get; set; }
         public decimal Price { get; set; }
     }

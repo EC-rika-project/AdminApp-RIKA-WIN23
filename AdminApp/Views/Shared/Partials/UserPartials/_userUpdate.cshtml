@@ -4,16 +4,31 @@
 
     Layout = "_LayoutForItems";
 
+    Model.Admin = true;
+
 }
 
 
 
 <div class="user-add-form-wrapper-wrapper">
-    <form class="user-add-form-wrapper" asp-action="_users" asp-controller="user" method="post">
+
+    <form class="user-add-form-wrapper" asp-action="edituseractual" asp-controller="user" method="post">
 
         <h2>
             Update Account
         </h2>
+
+        <div class="user-add-form-image-container">
+
+            <img class="user-add-form-image" src="/images/Profilepic.jpg"/>
+
+            <input type="file" name="fileUpload" hidden id="fileUpload" />
+
+            <div class="user-add-image-button-upload btn-dark">
+                Upload
+            </div>
+
+        </div>
 
         <div style="color:red; max-width:60%">
             <p style="color:red;">
@@ -38,7 +53,9 @@
 
 
         <label class="user-add-label" for="email-adduser">Email</label>
-        <input tabindex="3" class="user-add-input" asp-for="Email" id="email-adduser" />
+        <input disabled tabindex="3" class="user-add-input" asp-for="Email" id="email-adduser" />
+        <input hidden tabindex="3" class="user-add-input" asp-for="Email" id="email-adduser" />
+
         @Html.ValidationMessageFor(m => m.Email, "", new { style = " font-size: 14px; color:red; max-width:60%; text-align:center" })
 
 
@@ -53,6 +70,8 @@
             <input asp-for="Admin" tabindex="6" class="user-add-admin-check" type="checkbox" />
 
         </div>
+
+        <a href="@Url.Action("changepassword", "user", new { value = Model.Email!.ToLower() })">Change Password</a>
 
 
         <button tabindex="7" class="btn-dark user-add-button">

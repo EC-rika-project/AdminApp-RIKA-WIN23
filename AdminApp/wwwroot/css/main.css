@@ -785,7 +785,7 @@ svg {
 
 .main-user-wrapper {
   width: 100%;
-  max-height: 25rem;
+  height: 25rem;
   border: 1px solid rgba(181, 175, 175, 0.831372549);
   overflow: scroll;
   display: flex;
@@ -905,6 +905,30 @@ svg {
   border-radius: 8px;
   box-shadow: 0px 1px 1px 1px rgba(181, 175, 175, 0.831372549);
 }
+.user-add-form-wrapper-wrapper .user-add-form-wrapper .user-add-form-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  row-gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.user-add-form-wrapper-wrapper .user-add-form-wrapper .user-add-form-image-container .user-add-form-image {
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid rgba(181, 175, 175, 0.831372549);
+  margin-left: auto;
+  margin-right: auto;
+}
+.user-add-form-wrapper-wrapper .user-add-form-wrapper .user-add-form-image-container .user-add-image-button-upload {
+  width: 8rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .user-add-form-wrapper-wrapper .user-add-form-wrapper .user-add-input {
   width: 60%;
   height: 2rem;
@@ -956,4 +980,6 @@ svg {
   border: 1px solid rgba(181, 175, 175, 0.831372549);
   font-size: 10rem;
   border-radius: 8px;
+  padding: 1rem;
+  column-gap: 1rem;
 }
