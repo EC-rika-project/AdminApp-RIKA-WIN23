@@ -13,8 +13,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 
-<<<<<<< Updated upstream
-=======
 builder.Services.AddHttpClient();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAuthentication(options => {
@@ -37,9 +35,6 @@ builder.Services.AddScoped<IAppAuthenticationService, AuthenticationService>();
 
 
 
-
-
->>>>>>> Stashed changes
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
