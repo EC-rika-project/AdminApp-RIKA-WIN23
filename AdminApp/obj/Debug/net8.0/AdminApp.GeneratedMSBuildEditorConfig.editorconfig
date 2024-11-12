@@ -9,39 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AdminApp
 build_property.RootNamespace = AdminApp
-build_property.ProjectDir = C:\Users\Alexander\Desktop\RikaAdminApp\AdminApp\
+build_property.ProjectDir = C:\Users\sevad\Desktop\Rika admin\AdminApp-RIKA-WIN23\AdminApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Alexander\Desktop\RikaAdminApp\AdminApp
+build_property.MSBuildProjectDirectory = C:\Users\sevad\Desktop\Rika admin\AdminApp-RIKA-WIN23\AdminApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Alexander/Desktop/RikaAdminApp/AdminApp/Views/Home/Index.cshtml]
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alexander/Desktop/RikaAdminApp/AdminApp/Views/Shared/Partials/Header.cshtml]
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/Shared/Partials/Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXEhlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alexander/Desktop/RikaAdminApp/AdminApp/Views/Shared/Toast/_ToastMessages.cshtml]
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/Shared/Partials/_categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9jYXRlZ29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/Shared/Partials/_orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9vcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/Shared/Partials/_products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9wcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/Shared/Partials/_users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF91c2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/Shared/Toast/_ToastMessages.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRvYXN0XF9Ub2FzdE1lc3NhZ2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alexander/Desktop/RikaAdminApp/AdminApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/Shared/_LayoutForItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRGb3JJdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alexander/Desktop/RikaAdminApp/AdminApp/Views/_ViewImports.cshtml]
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/SignIn/signin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbkluXHNpZ25pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alexander/Desktop/RikaAdminApp/AdminApp/Views/_ViewStart.cshtml]
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alexander/Desktop/RikaAdminApp/AdminApp/Views/Shared/_Layout.cshtml]
+[C:/Users/sevad/Desktop/Rika admin/AdminApp-RIKA-WIN23/AdminApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-o23hbe2vah
