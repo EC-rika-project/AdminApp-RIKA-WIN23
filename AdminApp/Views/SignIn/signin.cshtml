@@ -1,0 +1,76 @@
+﻿@model AdminApp.ViewModels.SignInViewModel
+
+@{
+    ViewData["Title"] = "Sign in to your Account";
+}
+
+
+
+
+@if (!User.Identity!.IsAuthenticated)
+{
+    
+
+    <section class="signin-welcome">
+        <div class="container signin-container">
+            <h2>Admin Panel</h2>
+            <p>Please login</p>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="container signin-container">
+            <div class="signin-form">
+                <form asp-controller="SignIn" asp-action="SignIn" method="post">
+                    <div class="form-group">
+                        <label asp-for="Email"></label>
+                        <input asp-for="Email" class="input-form" />
+                        <span asp-validation-for="Email" class="error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Password"></label>
+                        <input asp-for="Password" type="password" class="input-form" />
+                        <span asp-validation-for="Password" class="error"></span>
+                    </div>
+
+                    <div class="form-group remember-me-forgot">
+                        <input asp-for="RememberMe" type="checkbox" id="Rememberme" />
+                        <label asp-for="RememberMe">Remember me</label>
+                        <a asp-controller="" asp-action="">Forgot password?</a>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+
+       @*      <div class="separator">
+                <span>or</span>
+            </div> *@
+
+       
+        </div>
+    </section>
+
+
+}else
+{
+    <div class="signin-already-signedin">
+
+        <p>You have already signed in!</p>
+
+    </div>
+}
+
+
+
+
+
+
+
+
+@* <div class="signin-no-account">
+    <p>No account yet? Sign up <a asp-controller="Signup" asp-action="signup">here</a></p>
+</div> *@
+
+<script defer src="~/js/validation.js"></script>
