@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\AdminApp.csproj": {}
+    "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\AdminApp\\AdminApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\AdminApp.csproj": {
+    "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\AdminApp\\AdminApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\AdminApp.csproj",
+        "projectUniqueName": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\AdminApp\\AdminApp.csproj",
         "projectName": "AdminApp",
-        "projectPath": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\AdminApp.csproj",
-        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\AdminApp\\obj\\",
+        "projectPath": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\AdminApp\\AdminApp.csproj",
+        "packagesPath": "C:\\Users\\sevad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\AdminApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sevad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -76,20 +76,20 @@
         }
       }
     },
-    "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\sevad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sevad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure_Tests\\Infrastructure_Tests.csproj": {
-                "projectPath": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure_Tests\\Infrastructure_Tests.csproj"
+              "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure_Tests\\Infrastructure_Tests.csproj": {
+                "projectPath": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure_Tests\\Infrastructure_Tests.csproj"
               }
             }
           }
@@ -125,6 +125,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -145,20 +167,20 @@
         }
       }
     },
-    "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure_Tests\\Infrastructure_Tests.csproj": {
+    "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure_Tests\\Infrastructure_Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure_Tests\\Infrastructure_Tests.csproj",
+        "projectUniqueName": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure_Tests\\Infrastructure_Tests.csproj",
         "projectName": "Infrastructure_Tests",
-        "projectPath": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure_Tests\\Infrastructure_Tests.csproj",
-        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure_Tests\\obj\\",
+        "projectPath": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure_Tests\\Infrastructure_Tests.csproj",
+        "packagesPath": "C:\\Users\\sevad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure_Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sevad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

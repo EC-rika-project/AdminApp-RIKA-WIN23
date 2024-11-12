@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "_LayoutForItems";
+}
+
+
+
+@if (TempData["successMessage"] != null)
+{
+
+}
+
+<div class="user-add-success-add">
+    <i class="fa-solid fa-check"></i>
+</div>
+
+<script>
+    var countdownValue = 2;
+
+    function updateCountdown() {
+        countdownValue--;
+        if (countdownValue <= 0) {
+            window.location.href = '/users';
+        }
+    }
+
+    setInterval(updateCountdown, 1000);
+</script>
+

@@ -1,3 +1,4 @@
+using AdminApp.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -24,15 +25,25 @@ namespace AdminApp.Controllers
             // Om appen autentiserar sig med 
             // Glöm inte ta bort uttropstecken när logiken implementeras!
 
-            if (!User.Identity!.IsAuthenticated)
+            if (User.Identity!.IsAuthenticated)
             {
-                return View();
+                HomeViewModel model = new HomeViewModel
+                {
+                    TotalUsers = 1024,
+                    ActiveSessions = 256,
+                    TotalSales = 34500.75m,
+                    NewOrders = 45,
+                    PendingTasks = 7
+
+                };
+
+                return View(model);
             }
 
 
             // Ändra till rätt kontrollernamn beroende på hur det implementeras?
 
-            return RedirectToAction("login", "home");
+            return RedirectToAction("signin", "signin");
 
            
         }
@@ -49,8 +60,9 @@ namespace AdminApp.Controllers
 
             // Ändra till rätt kontrollernamn beroende på hur det implementeras?
 
-            return RedirectToAction("login", "home");
+            return RedirectToAction("signin", "signin");
         }
+
 
     }
 }

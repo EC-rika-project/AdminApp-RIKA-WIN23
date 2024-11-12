@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure_Tests\\Infrastructure_Tests.csproj": {}
+    "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure_Tests\\Infrastructure_Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure_Tests\\Infrastructure_Tests.csproj": {
+    "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure_Tests\\Infrastructure_Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure_Tests\\Infrastructure_Tests.csproj",
+        "projectUniqueName": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure_Tests\\Infrastructure_Tests.csproj",
         "projectName": "Infrastructure_Tests",
-        "projectPath": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure_Tests\\Infrastructure_Tests.csproj",
-        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\Desktop\\RikaAdminApp\\Infrastructure_Tests\\obj\\",
+        "projectPath": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure_Tests\\Infrastructure_Tests.csproj",
+        "packagesPath": "C:\\Users\\sevad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sevad\\Desktop\\Rika admin\\AdminApp-RIKA-WIN23\\Infrastructure_Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sevad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

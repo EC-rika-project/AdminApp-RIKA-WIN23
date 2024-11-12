@@ -1,4 +1,26 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿
+function FilterDivsOnSearch(letters) {
 
-// Write your JavaScript code.
+    const divs = document.querySelectorAll('.user-containers');
+
+    divs.forEach(function (div) {
+
+        if (!div.textContent.toLowerCase().includes(letters.toLowerCase())) {
+
+            div.style.display = 'none';
+
+        } else {
+
+            div.style.display = 'flex';
+        }
+
+    });
+}
+
+function handleKeyUp(event) {
+
+    const inputValue = event.target.value;
+
+    FilterDivsOnSearch(inputValue);
+
+}

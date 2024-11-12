@@ -19,7 +19,7 @@
         <!-- Glöm inte ta bort uttropstecken när logik implementeras! -->
 
 
-        @if (!User.Identity!.IsAuthenticated)
+        @if (User.Identity!.IsAuthenticated)
         {
             var userName = User.FindFirst(System.Security.Claims.ClaimTypes.Name)?.Value;
             var userEmail = User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value;
