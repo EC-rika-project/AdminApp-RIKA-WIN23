@@ -1,4 +1,6 @@
-﻿
+﻿@model AdminApp.ViewModels.HomeViewModel
+
+
 @{
 
     ViewData["Title"] = "Home";
@@ -42,11 +44,71 @@
 
         <div class="wrapper-index-render-partial">
 
-            <!-- Här kan man sätta en div för att presentera något på startstidan! -->
-            Här kan man presentera något på startsidan..
+
+            @if(Model != null)
+            {
+                <div class="container index-render-partial-dashboard">
+                    <h1>Backoffice Dashboard</h1>
+
+                 
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-header">Total Users</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">@Model.TotalUsers</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-header">Active Sessions</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">@Model.ActiveSessions</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-header">Total Sales</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">@Model.TotalSales.ToString("C")</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-header">New Orders</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">@Model.NewOrders</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">Pending Tasks</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">@Model.PendingTasks</h5>
+                                    <button href="#" class="btn-dark">View Tasks</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            }
 
 
         </div>
+
+
 
     </div>
 

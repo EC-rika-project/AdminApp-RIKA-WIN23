@@ -744,6 +744,13 @@ svg {
   align-items: center;
   border: 1px solid black;
 }
+.wrapper-index .wrapper-index-render-partial .index-render-partial-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  row-gap: 2rem;
+  padding-top: 2rem;
+}
 
 .index-menu-list-wrapper {
   border: 1px solid rgba(181, 175, 175, 0.831372549);

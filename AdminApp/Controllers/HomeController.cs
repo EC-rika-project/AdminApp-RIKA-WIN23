@@ -1,3 +1,4 @@
+using AdminApp.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -26,13 +27,15 @@ namespace AdminApp.Controllers
 
             if (!User.Identity!.IsAuthenticated)
             {
-                return View();
+                var stats = GetDashboardStatistics();
+
+                return View(stats);
             }
 
 
             // Ändra till rätt kontrollernamn beroende på hur det implementeras?
 
-            return RedirectToAction("login", "home");
+            return View();
 
            
         }
@@ -52,5 +55,19 @@ namespace AdminApp.Controllers
             return RedirectToAction("login", "home");
         }
 
+
+
+        private HomeViewModel GetDashboardStatistics()
+        {
+            // Mock data - In a real application, this would come from a database or service.
+            return new HomeViewModel
+            {
+                TotalUsers = 1024,
+                ActiveSessions = 256,
+                TotalSales = 34500.75m,
+                NewOrders = 45,
+                PendingTasks = 7
+            };
+        }
     }
 }
